@@ -47,6 +47,32 @@ p {
 .project p { 
      font-variant: small-caps;
 }
+#content {
+     min-height: 400px;
+     padding-top: 20px;
+     margin-bottom: 30px;
+     overflow: hidden;
+}
+#portfolio-nav {
+     margin: auto;
+     overflow: hidden;
+}
 
-
+ul#portfolio {
+     float: left;
+     list-style: none;
+     margin-left: 0;
+}
+li {
+     float: left;
+     padding: 13px 7px 15px 7px;
+     width: 550px;
+     background: rgba(0, 0, 0, 0.5);
+     color: #FFF;
+     text-align: center;
+     font-size: 16px;
+     -webkit-transition: 0.3s linear all;
+     -moz-transition: 0.3s linear all;
+     transition: 0.3s linear all;
+}
 
